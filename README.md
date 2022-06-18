@@ -17,3 +17,6 @@ Mastering Django Rest Framework Tutorial Indonesia
 ```django-admin startapp snippets```\
 or\
 ```python manage.py startapp snippets```
+
+* Testing our API using curl:\
+```curl http://127.0.0.1:8000/snippets/```
