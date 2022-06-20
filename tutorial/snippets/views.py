@@ -10,7 +10,7 @@ from snippets.serializers import SnippetSerializer
 # Create your views here.
 
 @api_view(['GET', 'POST'])
-def snippet_list(request):
+def snippet_list(request, format=None):
     if request.method == 'GET':
         snippet = Snippet.objects.all()
         serializer = SnippetSerializer(snippet, many=True)  # many: there are many objects in our models
@@ -24,7 +24,7 @@ def snippet_list(request):
 
 
 @api_view(['GET', 'PUT', 'DELETE'])
-def snippet_detail(request, pk):
+def snippet_detail(request, pk, format=None):
     try:
         snippet = Snippet.objects.get(pk=pk)
     except Snippet.DoesNotExist:
