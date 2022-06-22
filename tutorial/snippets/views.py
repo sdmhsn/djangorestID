@@ -16,9 +16,11 @@ def snippet_list(request, format=None):
         serializer = SnippetSerializer(snippet, many=True)  # many: there are many objects in our models
         return Response(serializer.data)  # without the status code means HTTP_200_OK. we can also write the identifier status code using by numeric identifier (e.g. status=200). but it's good idea to use  explicit identifiers (e.g. status=status.HTTP_200_OK) than using numeric identifiers. 
     elif request.method == 'POST':
+        # print(request.data)  # sample of request.data when we POST (e.g. <QueryDict: {'code': ['print("Tes 123")']}>)
         serializer = SnippetSerializer(data=request.data)
         if serializer.is_valid():
-            serializer.save()
+            # print(serializer.validated_data)  # sample of serializer.validated_data (e.g. OrderedDict([('code', 'print("Tes 123 again")'), ('linenos', False)]))
+            serializer.save()  # the data to be stored is .validated_data not request.data
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
