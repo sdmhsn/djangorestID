@@ -2,7 +2,7 @@
 
 Mastering Django Rest Framework Tutorial Indonesia
 
-## Django REST Framework Tutorial 2: Requests and Responses
+## Django REST Framework Tutorial 3: Class-based Views
 
 **Commands:**
 * Testing our API using curl with verbose:\
