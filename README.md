@@ -24,7 +24,7 @@ Mastering Django Rest Framework Tutorial Indonesia
 * About APIView:\
 https://www.django-rest-framework.org/api-guide/views/#class-based-views
 
-* About Django CBV mixins:\ 
+* About Django CBV mixins:\
 https://docs.djangoproject.com/en/4.0/topics/class-based-views/mixins/
 
 * About DRF mixins:\
@@ -33,5 +33,9 @@ https://www.django-rest-framework.org/api-guide/generic-views/#mixins
 * About GenericAPIView:\
 https://www.django-rest-framework.org/api-guide/generic-views/#genericapiview
 
+* About Generic Views:\
+https://www.django-rest-framework.org/tutorial/3-class-based-views/#using-generic-class-based-views\
+https://www.django-rest-framework.org/api-guide/generic-views/#concrete-view-classes
+
 **Refactoring of Our API views:**\
-FBV (@api_view decorator) --> CBV (APIView class)  --> CBV (using DRF mixins)
+FBV (@api_view decorator) --> CBV (APIView class)  --> CBV (using DRF mixins) --> CBV (generic views)
