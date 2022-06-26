@@ -28,4 +28,14 @@ Mastering Django Rest Framework Tutorial Indonesia
 ```curl -v -X POST -d "{\"code\": \"print(456)\"}" -H "Content-Type: application/json" http://127.0.0.1:8000/snippets/``` # Content-Type: application/json
 
 **Resources:**
+* About Authentication & Permissions:\
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/
+
+* About ModelSerializer:\
+https://www.django-rest-framework.org/api-guide/serializers/#modelserializer
+
+* About ListAPIView:\
+https://www.django-rest-framework.org/api-guide/generic-views/#listapiview
+
+* About RetrieveAPIView:\
+https://www.django-rest-framework.org/api-guide/generic-views/#retrieveapiview
