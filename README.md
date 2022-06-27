@@ -47,3 +47,8 @@ https://www.django-rest-framework.org/api-guide/generic-views/#methods # (Save a
 * About ReadOnlyField:\
 https://www.django-rest-framework.org/api-guide/fields/#readonlyfield\
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#updating-our-serializer
+
+* About Permissions:
+https://www.django-rest-framework.org/api-guide/permissions/
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#adding-required-permissions-to-views
+https://www.django-rest-framework.org/api-guide/permissions/#isauthenticatedorreadonly
