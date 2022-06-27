@@ -39,3 +39,11 @@ https://www.django-rest-framework.org/api-guide/generic-views/#listapiview
 
 * About RetrieveAPIView:\
 https://www.django-rest-framework.org/api-guide/generic-views/#retrieveapiview
+
+* About .perform_create():\
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#associating-snippets-with-users\
+https://www.django-rest-framework.org/api-guide/generic-views/#methods # (Save and deletion hooks)
+
+* About ReadOnlyField:\
+https://www.django-rest-framework.org/api-guide/fields/#readonlyfield\
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#updating-our-serializer
