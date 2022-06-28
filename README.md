@@ -41,7 +41,7 @@ https://www.django-rest-framework.org/api-guide/generic-views/#listapiview
 https://www.django-rest-framework.org/api-guide/generic-views/#retrieveapiview
 
 * About .perform_create():\
-https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#associating-snippets-with-users\
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#associating-snippets-with-users \
 https://www.django-rest-framework.org/api-guide/generic-views/#methods # (Save and deletion hooks)
 
 * About PrimaryKeyRelatedField:\
@@ -49,13 +49,15 @@ https://www.django-rest-framework.org/api-guide/relations/#primarykeyrelatedfiel
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#adding-endpoints-for-our-user-models
 
 * About ReadOnlyField:\
-https://www.django-rest-framework.org/api-guide/fields/#readonlyfield\
+https://www.django-rest-framework.org/api-guide/fields/#readonlyfield \
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#updating-our-serializer
 
 * About Permissions:\
-https://www.django-rest-framework.org/api-guide/permissions/
-https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#adding-required-permissions-to-views
-https://www.django-rest-framework.org/api-guide/permissions/#isauthenticatedorreadonly
+https://www.django-rest-framework.org/api-guide/permissions/ \
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#adding-required-permissions-to-views \
+https://www.django-rest-framework.org/api-guide/permissions/#isauthenticatedorreadonly \
+https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#object-level-permissions \
+https://www.django-rest-framework.org/api-guide/permissions/#custom-permissions \
 
 * About api-auth:\
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#adding-login-to-the-browsable-api
