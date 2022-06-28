@@ -61,3 +61,7 @@ https://www.django-rest-framework.org/api-guide/permissions/#custom-permissions 
 
 * About api-auth:\
 https://www.django-rest-framework.org/tutorial/4-authentication-and-permissions/#adding-login-to-the-browsable-api
+
+* About Authentication:\
+https://www.django-rest-framework.org/api-guide/authentication/ \
+https://www.django-rest-framework.org/api-guide/authentication/#api-reference \
