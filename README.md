@@ -76,3 +76,12 @@ https://www.django-rest-framework.org/api-guide/renderers/#ordering-of-renderer-
 * About StaticHTMLRenderer:\
 https://www.django-rest-framework.org/api-guide/renderers/#statichtmlrenderer
 
+* About HyperlinkedModelSerializer:\
+https://www.django-rest-framework.org/api-guide/serializers/#hyperlinkedmodelserializer \
+https://www.django-rest-framework.org/tutorial/5-relationships-and-hyperlinked-apis/#hyperlinking-our-api \
+
+* About HyperlinkedRelatedField:\
+https://www.django-rest-framework.org/api-guide/relations/#hyperlinkedrelatedfield \
+
+* About HyperlinkedIdentityField:\
+https://www.django-rest-framework.org/api-guide/relations/#hyperlinkedidentityfield
