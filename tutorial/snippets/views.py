@@ -63,5 +63,7 @@ class SnippetHighlight(generics.GenericAPIView):
     renderer_classes = [renderers.StaticHTMLRenderer]
 
     def get(self, request, *args, **kwargs):
-        snippet = self.get_object()  # .get_object(): base method in GenericAPIView
-        return Response(snippet.highlighted)
+        snippet = self.get_object()  # .get_object(): base method in GenericAPIView. Returns an object instance that should be used for detail views.
+        # print(snippet)
+        # print(snippet.highlighted)
+        return Response(snippet.highlighted)  # only return the highlighted field in an object instance Snippet model
